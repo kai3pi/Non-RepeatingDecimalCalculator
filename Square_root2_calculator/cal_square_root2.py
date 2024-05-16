@@ -3,7 +3,7 @@ from decimal import Decimal, getcontext
 
 def sqrt_2(precision):
     getcontext().prec = precision + 1
-    x = Decimal(2)  
+    x = Decimal(2)   
     for i in range(precision * 5):
         x = (x + Decimal(2) / x) / 2
     return x
