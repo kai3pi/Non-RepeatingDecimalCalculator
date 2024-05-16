@@ -1,4 +1,4 @@
-#Square root of 2 Calculator
+# Square root of 2 Calculator
 This repository contains a Python script, `cal_napier_number.py`, which calculates Square root of 2 to a specified number of digits using the Newton's method.
 
 
