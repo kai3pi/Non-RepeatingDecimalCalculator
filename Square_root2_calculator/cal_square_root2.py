@@ -12,7 +12,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         digits = int(sys.argv[1])  #Get number of digits from command line
     else:
-        digits = 10  #Default value when there are no command line arguments
+        digits = 10   #Default value when there are no command line arguments
 
     root2 = sqrt_2(digits)
     print(str(root2))
